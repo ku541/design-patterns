@@ -2,7 +2,9 @@
     "name": "kusal/design-patterns",
     "autoload": {
         "psr-4": {
-            "Kusal\\DesignPatterns\\": "src/"
+            "Kusal\\DesignPatterns\\": "src/",
+            "Kusal\\DesignPatterns\\Behavioral\\": "src/behavioral",
+            "Kusal\\DesignPatterns\\Behavioral\\Command\\": "src/behavioral/command"
         }
     },
     "require": {}
