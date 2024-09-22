@@ -4,7 +4,8 @@
         "psr-4": {
             "Kusal\\DesignPatterns\\": "src/",
             "Kusal\\DesignPatterns\\Behavioral\\": "src/behavioral",
-            "Kusal\\DesignPatterns\\Behavioral\\Command\\": "src/behavioral/command"
+            "Kusal\\DesignPatterns\\Behavioral\\Command\\": "src/behavioral/command",
+            "Kusal\\DesignPatterns\\Behavioral\\TemplateMethod\\": "src/behavioral/template-method"
         }
     },
     "require": {}
