@@ -9,6 +9,12 @@ switch ($argv[1]) {
 
     case 'template-method':
         require_once 'src/behavioral/template-method/index.php';
+        break;
+
+    case 'strategy':
+        require_once 'src/behavioral/strategy/index.php';
+        break;
+
     default:
         echo "Invalid pattern\n";
         break;
