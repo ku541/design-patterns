@@ -2,20 +2,19 @@
 
 require_once 'vendor/autoload.php';
 
-switch ($argv[1]) {
-    case 'command':
-        require_once 'src/behavioral/command/index.php';
-        break;
+const PATTERN_TO_TYPE_MAPPING = [
+    'command' => 'behavioral',
+    'template-method' => 'behavioral',
+    'strategy' => 'behavioral',
+    'facade' => 'structural'
+];
 
-    case 'template-method':
-        require_once 'src/behavioral/template-method/index.php';
-        break;
+$pattern = $argv[1];
 
-    case 'strategy':
-        require_once 'src/behavioral/strategy/index.php';
-        break;
-
-    default:
-        echo "Invalid pattern\n";
-        break;
+if (!isset(PATTERN_TO_TYPE_MAPPING[$pattern])) {
+    exit("Invalid pattern\n");
 }
+
+$type = PATTERN_TO_TYPE_MAPPING[$pattern];
+
+require_once "src/$type/$pattern/index.php";

@@ -6,7 +6,8 @@
             "Kusal\\DesignPatterns\\Behavioral\\": "src/behavioral",
             "Kusal\\DesignPatterns\\Behavioral\\Command\\": "src/behavioral/command",
             "Kusal\\DesignPatterns\\Behavioral\\TemplateMethod\\": "src/behavioral/template-method",
-            "Kusal\\DesignPatterns\\Behavioral\\Strategy\\": "src/behavioral/strategy"
+            "Kusal\\DesignPatterns\\Behavioral\\Strategy\\": "src/behavioral/strategy",
+            "Kusal\\DesignPatterns\\Structural\\Facade\\": "src/structural/facade"
         }
     },
     "require": {}
