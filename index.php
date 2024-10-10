@@ -6,7 +6,8 @@ const PATTERN_TO_TYPE_MAPPING = [
     'command' => 'behavioral',
     'template-method' => 'behavioral',
     'strategy' => 'behavioral',
-    'facade' => 'structural'
+    'facade' => 'structural',
+    'mediator' => 'behavioral'
 ];
 
 $pattern = $argv[1];
